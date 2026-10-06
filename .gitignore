@@ -1,0 +1,37 @@
+.env
+**/.env
+backend/.venv/
+**/__pycache__/
+**/.pytest_cache/
+backend/uploads/
+frontend/node_modules/
+frontend/dist/
+*.db
+
+# Private settings
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Generated files
+dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+
+# Local data and uploaded images
+backend/uploads/
+*.db
+
+# Backup files
+*.backup
+*.bak
